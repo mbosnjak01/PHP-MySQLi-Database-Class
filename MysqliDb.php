@@ -241,7 +241,7 @@ class MysqliDb
         // if params were passed as array
         if (is_array($host)) {
             foreach ($host as $key => $val) {
-                $$key = $val;
+                $key = $val;
             }
         }
 
